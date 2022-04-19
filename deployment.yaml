@@ -36,6 +36,6 @@ spec:
     spec:
       containers:
       - name: webapp-demo
-        image: hachemguetif/circleci-argocd:$TAG
+        image: hachemguetif/circleci-argocd:malek
         ports:
         - containerPort: 80
